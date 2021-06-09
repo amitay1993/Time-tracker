@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #4d62ff, #80fff9);
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container{
+  align-self: stretch;
+  display: flex;
+  background: whitesmoke;
+  margin: 1.5rem;
+  border:dimgray solid 1px;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+
